@@ -6,11 +6,12 @@
 
 nums=[5,16,13,10,1,24,4]
 target=9
-i=0
 j=0
+i=0
+
 for n1 in nums:
     for n2 in nums:
-        if n1+n2==target and i != j:
+        if n1+n2==target:
             print([j,i])
         else:
             i=i+1
