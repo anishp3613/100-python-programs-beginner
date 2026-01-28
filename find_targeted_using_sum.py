@@ -21,8 +21,7 @@ for n1 in nums:
 
 
 
-
-
+'''
 
 # Input list of numbers
 nums = [5, 16, 13, 10, 1, 24, 4]
@@ -50,8 +49,8 @@ for n1 in nums:
 
 
 # ---------------------------------------------------------------------------
-
-
+'''
+'''
 
 items=[4,1,2,1,2]
 
@@ -69,3 +68,4 @@ for i in items:
     if items.count(i)==1:
         # If it is unique, print the element
         print(i)
+'''
